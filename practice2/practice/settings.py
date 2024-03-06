@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-wl9pr#qcr$5qkl1b)o#wepftau--n60!=1*(_*%u6-@b0%i)dh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # settings.py
 AUTH_USER_MODEL = 'pbl.Admin'
